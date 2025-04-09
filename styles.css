@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+     
+}
+
+p {
+    word-wrap: break-word;
+    width: 500px;
+    border: 1px solid #ffffff;
+    overflow: visible;
+    text-overflow: clip;
+    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    font-style: normal;
+    font-variant: normal;
+
+}
+.flex-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.185);
+    justify-content: space-between;
+}
+
+.flex-container > div {
+    background-color: rgba(0, 0, 0, 0.253);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: aliceblue;
+}
+html {
+    cursor: url('gifs/FlagCursor.gif'), default;
+}
+h2 {
+    color: aliceblue;
+    font-size: large;
+}
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+    color: rgb(0, 255, 13);
+  }
+  
+  a:active {
+    color: rgb(255, 0, 0);
+  }
+@font-face {
+    font-family: 'SigmaBalls';
+    src: url();
+}
